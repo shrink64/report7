@@ -15,6 +15,6 @@ public class main {
         Scanner stdIn = new Scanner(System.in);
         System.out.print("Input:");
         int a = stdIn.nextInt();
-        
+
     }
 }
