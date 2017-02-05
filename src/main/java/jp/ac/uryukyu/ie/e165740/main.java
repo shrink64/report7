@@ -16,5 +16,23 @@ public class main {
         System.out.print("Input:");
         int a = stdIn.nextInt();
 
+        switch (a){
+            case 1:
+                System.out.println("");
+
+                Solver solver = new Solver();
+                Solver.bet();
+                Solver.turn();
+
+                break;
+            case 2:
+                System.out.println(" ------ルール説明------\n ");
+
+                break;
+            default:
+                System.out.println("終了します");
+                break;
+        }
+
     }
 }
