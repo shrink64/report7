@@ -7,14 +7,11 @@ import java.util.Scanner;
  */
 public class Solver {
     private int money = 100;
-    int[] a = {0,1,2,3,4,5,6,7,8,9,10,11,12};
     int betMoney;
     int betMunber;
     int hitNum;
     //現在の所持金、賭け金の設定、賭ける数字の設定を行う
-    public void bet(int money){
-
-
+    public void bet(){
         // 所持金を示す
         System.out.printf("現在の所持金は $ %d です。\n",money);
         //掛け金を決める
@@ -27,7 +24,6 @@ public class Solver {
         Scanner stdIn2 = new Scanner(System.in);
         System.out.print("賭ける数字は:");
         betMunber = stdIn2.nextInt();
-
     }
 
     //当選番号を出力する

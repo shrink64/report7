@@ -1,8 +1,19 @@
 package jp.ac.uryukyu.ie.e165740;
 
-/**
- * Created by e165740 on 2017/02/06.
- */
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
 public class SolverTest {
+
+    @Test
+    public void profit() throws Exception {
+        Solver solver = new Solver();
+        int betNumber = 1;
+        int hitNum = 1;
+        solver.profit();
+
+
+    }
 
 }
