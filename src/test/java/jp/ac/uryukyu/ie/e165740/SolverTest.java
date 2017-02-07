@@ -9,9 +9,13 @@ public class SolverTest {
     @Test
     public void profit() throws Exception {
         Solver solver = new Solver();
-        int betNumber = 1;
-        int hitNum = 1;
+        solver.setBetNumber(1);
+        solver.setHitNum(1);
+        solver.setBetMoney(20);
+
+
         solver.profit();
+        assertEquals(120,solver.getMoney());
 
 
     }
